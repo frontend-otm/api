@@ -142,7 +142,7 @@ Triggered when a user clicks a product card or the "+" button on carousel items.
 | Frame Type | `frame_types[0].code` | "TYPE SQUARE" (uppercased) |
 | Price | `selling_setting.price` | "PRICE ¥7,800 税込" |
 | Description | `localization.description` | Japanese product description text |
-| CTA Button | `www.owndays.com/jp/ja/{$product.code}?sku={$product.skus[].id}` | "ONLINE STORE" button |
+| CTA Button | `www.owndays.com/jp/ja/products/{$product.code}?sku={$product.skus[].id}` | "ONLINE STORE" button |
 | CTA Subtitle | — | "OWNDAYSオンラインストアに移動します" |
 
 **Color Variant Chips Behavior:**

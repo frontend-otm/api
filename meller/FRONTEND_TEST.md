@@ -51,7 +51,7 @@ Build a responsive product listing page for the "OWNDAYS x MELLER" sunglasses co
 ### 3. Product Grid
 
 **Desktop (≥1024px):** 3-column grid layout  
-**Mobile (<768px):** Single column (full-width cards stacked vertically)
+**Mobile (<71024px):** Single column (full-width cards stacked vertically)
 
 #### Product Card Specification
 

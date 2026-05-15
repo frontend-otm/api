@@ -51,7 +51,7 @@ You're free to choose your preferred stack. Suggested options:
 
 ### Timeline
 
-Please submit your completed work within **3 days** from receiving this email. If you need additional time, let us know in advance.
+Please submit your completed work within **7 days** from receiving this email. If you need additional time, let us know in advance.
 
 ### Evaluation Criteria
 

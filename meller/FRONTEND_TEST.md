@@ -4,7 +4,7 @@
 
 Build a responsive product listing page for the "OWNDAYS x MELLER" sunglasses collaboration collection. The page displays 8 sunglasses products in a grid layout with an interactive product detail modal and a horizontally scrollable "Style Them" carousel section.
 
-**Figma Design:** https://www.figma.com/design/rB6UnnDhxpDhJevd8UHEVV/OWNDAYS-x-MELLER?m=dev
+**Figma Design:** Check from E-mail
 
 ---
 

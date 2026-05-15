@@ -293,4 +293,4 @@ Products (8 total):
 - Provide a GitHub repository or zip file
 - Include a README with setup instructions
 - Deploy to Vercel/Netlify (bonus)
-- Estimated time: 4–6 hours
+- Estimated time: 7 days

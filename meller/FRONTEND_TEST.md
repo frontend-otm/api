@@ -10,9 +10,55 @@ Build a responsive product listing page for the "OWNDAYS x MELLER" sunglasses co
 
 ## Data Source
 
-- **Products API:** `products.json` — Contains 8 products with SKU variants, color options, images, and pricing
-- **Stores API:** `stores.json` — Contains 36 store locations (for reference/bonus)
-- **Image Base URL:** `https://static.lenskart.com/media/owndays/img/` (prepend to image `path` fields)
+### API Endpoints
+
+| Endpoint | URL | Description |
+|----------|-----|-------------|
+| Products | `GET https://api-one-alpha-60.vercel.app/meller/products.json` | 8 products with SKU variants, colors, images, and pricing |
+
+### API Documentation
+
+Full schema and field descriptions: [PRODUCTS_README.md](https://github.com/frontend-otm/api/blob/main/meller/PRODUCTS_README.md)
+
+### Image Base URL
+
+Prepend to all image `path` fields:
+```
+https://static.lenskart.com/media/owndays/img/
+```
+
+**Example:**
+```
+path: "products/36ebdac7-36d3-40a8-9e83-f3cb90b4c9d4.webp"
+→ https://static.lenskart.com/media/owndays/img/products/36ebdac7-36d3-40a8-9e83-f3cb90b4c9d4.webp
+```
+
+### Key Data Structure
+
+```
+GET /meller/products.json → Response:
+{
+  "success": true,
+  "total": 8,
+  "data": [
+    {
+      "product": { "id", "code", "model_name", ... },
+      "product_line": { "name": "OWNDAYS × MELLER" },
+      "product_type": { "name": "Sunglasses" },
+      "localization": { "language_code": "ja", "description": "..." },
+      "frame_types": [{ "code": "square" | "boston" | "polygon" | "wellington" }],
+      "selling_setting": { "price": 7800, "in_stock": 2 },
+      "skus": [
+        {
+          "code": "C1",
+          "colors": [{ "hex_code": "#000000", "name": "ブラック", "path": null }],
+          "images": [{ "path": "products/xxx.webp", "order": 1 }]
+        }
+      ]
+    }
+  ]
+}
+```
 
 ---
 
@@ -227,7 +273,7 @@ Products (8 total):
 ### Tech Stack (Suggested)
 - Framework: React / Next.js / Vue (candidate's choice)
 - Styling: Tailwind CSS / CSS Modules / Styled Components
-- No backend required — use static JSON import
+- Data: Fetch from API endpoints (no backend required)
 
 ---
 

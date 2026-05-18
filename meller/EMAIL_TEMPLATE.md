@@ -26,7 +26,7 @@ Build a responsive product listing page for the "OWNDAYS x MELLER" sunglasses co
 | Products API | https://api-one-alpha-60.vercel.app/meller/products.json |
 | API Documentation | https://github.com/frontend-otm/api/blob/main/meller/PRODUCTS_README.md |
 
-**Image Base URL:** Prepend `https://static.lenskart.com/media/owndays/img/` to all image `path` values from the API.
+**Image Base URL:** Prepend `https://storage.owndays.com/storage/` to all image `path` values from the API.
 
 ### Requirements Summary
 

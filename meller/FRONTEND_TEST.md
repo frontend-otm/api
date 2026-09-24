@@ -10,6 +10,18 @@ Build a responsive product listing page for the "OWNDAYS x MELLER" sunglasses co
 
 ## Data Source
 
+### Fonts
+| Name | Using | URL | Weight |
+|------|-------|-----|--------|
+| Noto Sans Japanese | `font-family: "Noto Sans JP", sans-serif;` | `https://fonts.google.com/noto/specimen/Noto+Sans+JP` | |
+| Hiragino Kaku Gothic ProN | Can use the "Noto Sans Japanese" font instead | | |
+| Favorit | `font-family: "Favorit", sans-serif;` | `https://storage.owndays.com/meller/fonts/Favorit/Favorit-Bold.woff2` | 700 |
+| | | `https://storage.owndays.com/meller/fonts/Favorit/Favorit-Medium.woff2` | 500 |
+| | | `https://storage.owndays.com/meller/fonts/Favorit/Favorit-Regular.woff2` | 400 |
+| GT America Trial | `font-family: "GT America Trial Cm", sans-serif;` | `https://storage.owndays.com/meller/fonts/GTAmericaTrial/GTAmericaTrial-CmBd.woff2` | 900 |
+| | | `https://storage.owndays.com/meller/fonts/GTAmericaTrial/GTAmericaTrial-CmBl.woff2` | 700 |
+| | | `https://storage.owndays.com/meller/fonts/GTAmericaTrial/GTAmericaTrial-Md.woff2` | 500 |
+
 ### API Endpoints
 
 | Endpoint | URL | Description |

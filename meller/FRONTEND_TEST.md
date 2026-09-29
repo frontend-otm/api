@@ -42,7 +42,7 @@ https://static.lenskart.com/media/owndays/img/
 **Example:**
 ```
 path: "products/36ebdac7-36d3-40a8-9e83-f3cb90b4c9d4.webp"
-→ https://static.lenskart.com/media/owndays/img/products/36ebdac7-36d3-40a8-9e83-f3cb90b4c9d4.webp
+→ https://storage.owndays.com/storage/products/36ebdac7-36d3-40a8-9e83-f3cb90b4c9d4.webp
 ```
 
 ### Key Data Structure

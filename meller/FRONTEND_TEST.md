@@ -36,7 +36,7 @@ Full schema and field descriptions: [PRODUCTS_README.md](https://github.com/fron
 
 Prepend to all image `path` fields:
 ```
-https://static.lenskart.com/media/owndays/img/
+https://storage.owndays.com/storage/
 ```
 
 **Example:**

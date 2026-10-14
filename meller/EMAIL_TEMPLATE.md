@@ -18,6 +18,8 @@ Thank you for your interest in the Frontend Developer position. We'd like to mov
 
 Build a responsive product listing page for the "OWNDAYS x MELLER" sunglasses collection based on the provided Figma design and API data.
 
+Full assignment: https://github.com/frontend-otm/api/blob/main/meller/FRONTEND_TEST.md
+
 ### Resources
 
 | Resource | Link |
